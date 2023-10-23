@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+        <link href='https://css.gg/css' rel='stylesheet'>
+        <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="menu.css">
+        <script src="myscript1.js"></script>
+    </head>
+    <body>
+      <header class="page">
+        <div class="background">
+          <h1 style="font-family: Great Vibes, cursive; font-size: 8vh;">Specialities</h1>
+          <p style="font-size: 17px;">HOME > MENU ></p>
+        </div>
+      </header>
+    
+      <nav class="top-navigation" id="mytop-navigation">
+        <a href="home.html" class="active-logo"><span  style=" font-family: Lobster; font-size: 17px; color: #C8A97E;">Claude Monet</span></a>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html" style="color: #C8A97E;">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html"class="active1">Book a table</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+
+      <section class="background-menu-display">
+        <div class="nav-button">
+          <button class="tablink" onclick="openPage('Breakfast', this, '#cba48b')" id="defaultOpen">Breakfast</button>
+          <button class="tablink" onclick="openPage('Lunch', this, '#d4af96')">Lunch</button>
+          <button class="tablink" onclick="openPage('Dinner', this, '#dcb9a1')">Dinner</button>
+          <button class="tablink" onclick="openPage('Drinks', this, '#e4c3af')">Drinks</button>
+          <button class="tablink" onclick="openPage('Desserts', this, '#ebcfbc')">Desserts</button>
+          <button class="tablink" onclick="openPage('Wines', this, '#846552')">Wines</button>
+        </div>
+        
+        <div class="menu-display">
+          <div id="Breakfast" class="tabcontent">
+
+            <div class="menu-box row-menu">
+              <div class="img-menu ">
+                <img src="image/menu/breakfast/cafe.jpg" alt="" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Café au lait</p><p class="price-food">100 ₽</p>
+                </article>
+                <p><i>Cafe and Milk</i></p>
+                <p class="classify">Beverage</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu ">
+                <img src="image/menu/breakfast/corsiant.jpg" alt="" class="menu-picture" >
+                
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Croissants</p><p class="price-food">100 ₽</p>
+                </article>
+                <p><i>A flaky, buttery pastry perfect for breakfast.</i></p>
+                <p class="classify">Pastry</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/breakfast/egg.jpg" alt="breakfast" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Soft-boiled Eggs</p><p class="price-food">200 ₽</p>
+                </article>
+                <p><i>A breakfast staple, served with a runny yolk.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/breakfast/cheese.jpg" alt="breakfast" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Camembert Cheese</p><p class="price-food">500 ₽</p>
+                </article>
+                <p><i>A soft, creamy cheese with a bloomy rind.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="menu-display">
+          <div id="Lunch" class="tabcontent">
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/lunch/quiche.jpg" alt="lunch" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Quiche Lorraine</p><p class="price-food">800 ₽</p>
+                </article>
+                <p><i>Pie crust, Eggs, Cream, Bacon, Cheese, Seasonings</i></p>
+                <p class="classify">Main Course</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/lunch/ratatouille.jpg" alt="lunch" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Ratatouille</p><p class="price-food">1 434 ₽</p>
+                </article>
+                <p><i>Eggplant, Zucchini, Bell Peppers, Tomatoes, Onions, Garlic, Herbs and spices, Olive Oil</i></p>
+                <p class="classify">Main Course</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/lunch/Tarte Tarin.jpg" alt="lunch" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Tarte Tatin</p><p class="price-food">717 ₽</p>
+                </article> 
+                <p><i>Flour, Butter, Salt, Apples, Sugar</i></p>               
+                <p class="classify">Dessert</p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/lunch/salad.jpg" alt="lunch" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Salade Niçoise</p><p class="price-food">1 229 ₽</p>
+                </article>                
+                <p><i>Lettuce, Tomatoes, Canned Tuna, Hard-boiled Eggs, Olives, Anchovies, Green Beans, Potatoes, Red Onion, Vinaigrette Dressing, Capers, Fresh Herb</i></p>
+                <p class="classify">Appetizer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          <div id="Dinner" class="tabcontent">
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dinner/soup.jpg" alt="dinner" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Ratatouille</p><p class="price-food">1 434 ₽</p>
+                </article>
+                <p><i>Eggplant, Zucchini, Bell Peppers, Tomatoes, Onions, Garlic, Herbs and spices, Olive Oil.</i></p>
+              </div>
+            </div>
+          
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dinner/coq.jpg" alt="dinner" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Coq au Vin</p><p class="price-food">1 020 ₽</p>
+                </article>
+                <p><i>Chicken, Red Vine, Onions, Mushrooms, Bacon, Garlic, Flour, Olive Oil, Garni, Parsley, Salt and Pepper.</i></p>
+              </div>
+            </div>
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dinner/creme.jpg" alt="dinner" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">	Crème Brûlée</p><p class="price-food">300 ₽</p>
+                </article>
+                <p><i>Cream, Yolks, Sugar, Vanila Bean</i></p>
+              </div>
+            </div>
+            
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/lunch/brie.jpg" alt="dinner" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Brie cheese</p><p class="price-food">100 ₽</p>
+                </article>
+              </div>
+            </div> 
+          </div>
+          
+          <div id="Drinks" class="tabcontent">
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/breakfast/cafe.jpg" alt="drink" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Café au lait</p><p class="price-food">300 ₽</p>
+                </article>
+                <p><i>Cafe and Milk</i></p>
+                <p class="classify">Non-Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/drink/Chocolat Chaud.jpg" alt="drink" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Chocolat Chaud</p><p class="price-food">404 ₽</p>
+                </article>
+                <p><i>Cafe, Marshmallows, Cocao, Chocolate</i></p>
+                <p class="classify">Non-Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/drink/orangina.jpg" alt="drink" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Orangina</p><p class="price-food">303 ₽</p>
+                </article>
+                <p><i>Citrus Juices, Carbonated Water, Sweeteners, Natural Flavorings, Pulp, Acids, Stabilizers.</i></p>
+                <p class="classify">Non-Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/drink/French 75.jpg" alt="drink" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">French 75</p><p class="price-food">707 ₽</p>
+                </article>
+                <p><i>Gin, Champagne, Fresh Lemon Juice, Simple Syrup.</i></p>
+                <p class="classify">Cocktail</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/drink/sidecar.jpg" alt="drink" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Sidecar</p><p class="price-food">707 ₽</p>
+                </article>
+                <p><i>Cognac, Orange Liqueur, Lemon Juice, Ice, Lemon Twist, Sugar.</i></p>
+                <p class="classify">Cocktail</p>
+              </div>
+            </div> 
+          </div>
+  
+          <div id="Desserts" class="tabcontent">
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dessert/cakechoco.jpg" alt="dessert" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Chocolate Cake</p><p class="price-food">500 ₽</p>
+                </article>
+                <p><i>A rich, moist chocolate cake with a creamy chocolate frosting.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dessert/Vegan_Vanilla_Ice_Cream_(6020447714).jpg" alt="dessert" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Vanilla Ice Cream</p><p class="price-food">300 ₽</p>
+                </article>
+                <p><i>Creamy and smooth vanilla ice cream made from fresh vanilla beans.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dessert/applepie.jpg" alt="dessert" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Apple Pie</p><p class="price-food">450 ₽</p>
+                </article>
+                <p><i>Traditional apple pie with a flaky crust and sweet apple filling.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dessert/cheesecake.jpg" alt="dessert" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Strawberry Cheesecake</p><p class="price-food">550 ₽</p>
+                </article>
+                <p><i>A creamy cheesecake with a graham cracker crust and fresh strawberry topping.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/dessert/lemon.jpg" alt="dessert" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Lemon Tart</p><p class="price-food">400 ₽</p>
+                </article>
+                <p><i>A tangy lemon tart with a buttery crust and a zesty lemon filling.</i></p>
+                <p class="classify">Dessert</p>
+              </div>
+            </div> 
+          </div>
+  
+          <div id="Wines" class="tabcontent">
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/wine/Chablis.jpg" alt="wine" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Chablis</p><p class="price-food">1 196 ₽</p>
+                </article>
+                <p><i>A light and flavorful white wine, which sets the stage for courses and wines to come</i></p>
+                <p class="classify">Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/wine/graves.jpg" alt="wine" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Graves</p><p class="price-food">1 296 ₽</p>
+                </article>
+                <p><i>A medium weight, very refreshing white wine</i></p>
+                <p class="classify">Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/wine/geores.jpg" alt="wine" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Nuits-St. Georges</p><p class="price-food">1 493 ₽</p>
+                </article>
+                <p><i>A red Burgundy that would be a good choice with meat dishes</i></p>
+                <p class="classify">Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/wine/Sauternes.jpg" alt="wine" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Sauternes</p><p class="price-food">2 500 ₽</p>
+                </article>
+                <p><i>A sweet French dessert wine from the Sauternais region of the Graves section in Bordeau</i></p>
+                <p class="classify">Alcoholic</p>
+              </div>
+            </div> 
+
+            <div class="menu-box">
+              <div class="img-menu">
+                <img src="image/menu/wine/OIP.jpg" alt="wine" class="menu-picture" >
+              </div>
+
+              <div class="info-menu design-text">
+                <article class="item">
+                  <p class="food-name">Bordeaux</p><p class="price-food">3 000 ₽</p>
+                </article>
+                <p><i>A red wine from Bordeaux, which pairs well with lamb</i></p>
+                <p class="classify">Alcoholic</p>
+              </div>
+            </div> 
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="column1">
+            <h3 style="font-weight: bold;">About us</h3>
+            <h3></h3>Claude Monet is a prestigious 3-star Michelin restaurant in Moscow, renowned for its exquisite French cuisine and exceptional service for all occasions.</p>
+          </div>
+          <div class="column1">
+            <h3 style="font-weight: bold;">Open time</h3>
+            <article class="time-open">
+              <p class="day">Mon</p><p class="hour">09:00 - 24:00</p>
+            </article>
+            <article class="time-open">
+              <p class="day">Tue</p><p class="hour">09:00 - 24:00</p>
+            </article>
+            <article class="time-open">
+              <p class="day">Wed</p><p class="hour">09:00 - 24:00</p>
+            </article>
+            <article class="time-open">
+              <p class="day">Thur</p><p class="hour">09:00 - 24:00</p>
+            </article> 
+            <article class="time-open">
+              <p class="day">Fri</p><p class="hour">09:00 - 02:00</p>
+            </article>
+            <article class="time-open">
+              <p class="day">Sat</p><p class="hour">09:00 - 02:00</p>
+            </article> 
+            <article class="time-open">
+              <p class="day">Sun</p><p class="hour">09:00 - 02:00</p>
+            </article>
+          </div>
+          <div class="column1">
+            <h3 style="font-weight: bold;">Contact</h3>
+            <div class="icon-media">
+              <i class="gg-phone" style="text-align: left;"></i><p >+495-789-678-890</p>
+            </div>
+    
+            <div class="icon-media">
+              <i class="gg-mail" style="text-align: left;"></i><p >claudemonet@restaurant.ru</p>
+            </div>
+    
+            <div class="icon-media">
+              <i class="gg-pin" style="text-align: left;"></i><p >Spiridonovka Street, 25/20 Building 1</p>
+            </div>
+    
+          </div>
+        </footer>
+    </body>
+</html>

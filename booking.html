@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>    
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="booking.css">
+    <title>Claude Monet</title>
+    <link rel="shortcut icon" href="image/1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="page">
+        <div class="background">
+          <h1 style="font-family: Great Vibes, cursive; font-size: 8vh;">Book a table</h1>
+          <p style="font-size: 17px;">HOME > RESERVATION ></p>
+        </div>
+    </header>
+
+    <nav class="top-navigation" id="mytop-navigation">
+
+      <a href="home.html" class="active-logo"><span  style=" font-family: Lobster; font-size: 17px; color: #C8A97E;">Claude Monet</span></a>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html" class="active1">Book a table</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="custom-hamburger"></i>
+      </a>
+    </nav>
+
+ 
+  <section>
+    <div class="row-contact">
+        <div class="column-contact center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577343.986223678!2d36.72618097578704!3d55.580256954665614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2zTcOhdC14Y8ahLXZhLCBOZ2E!5e0!3m2!1svi!2s!4v1698037685750!5m2!1svi!2s" class="map-google center" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="column-contact">
+            <form method="post" action='#' class="form">
+                <div class="heading-line line response center header">
+                  <span class="sub-heading font2 res-text">Book a table</span>
+                  <h2 class="line res-text2">Make Reservation</h2>
+                </div>
+                
+                <fieldset>
+                  <label for="name">Enter Your Name: <input id="name" name="name" type="text" required /></label>
+                  <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                  <label for="phone">Enter Your Number: <input id="phone-number" name="phone-number" type="number" required></label>
+                  <label for="referrer">Time
+                    <select id="referrer" name="referrer">
+                      <option value="" disabled>(select one)</option>
+                      <option value="1">09:00</option>
+                      <option value="2">10:00</option>
+                      <option value="3">11:00</option>
+                      <option value="4">12:00</option>
+                      <option value="5">13:00</option>
+                      <option value="6">14:00</option>
+                      <option value="7">15:00</option>
+                      <option value="8">16:00</option>
+                      <option value="9">17:00</option>
+                      <option value="10">18:00</option>
+                      <option value="11">19:00</option>
+                      <option value="12">20:00</option>
+                      <option value="13">21:00</option>
+                      <option value="14">22:00</option>
+                      <option value="15">23:00</option>
+                      <option value="16">24:00</option>
+                      <option value="" disabled>Fri - Sun only</option>
+                      <option value="17">01:00</option>
+                      <option value="18">02:00</option>
+                    </select>
+                  </label>
+                  <label for="referrer">Person
+                    <select id="referrer" name="referrer">
+                      <option value="" disabled>(select one)</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">+4</option>
+                    </select>
+                  </label>
+          
+                  <label for="referrer">Table
+                    <select id="referrer" name="referrer">
+                      <option value="" disabled>(select one)</option>
+                      <option value="1">Round</option>
+                      <option value="2">Rectengular</option>
+                      <option value="3">Auto</option>
+                    </select>
+                  </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+              </form>
+        </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="row">
+      <div class="column1">
+        <h3 style="font-weight: bold;">About us</h3>
+        <p>Claude Monet is a prestigious 3-star Michelin restaurant in Moscow, renowned for its exquisite French cuisine and exceptional service for all occasions.</p>
+      </div>
+      <div class="column1">
+        <h3 style="font-weight: bold;">Open time</h3>
+        <article class="time-open">
+          <p class="day">Mon</p><p class="hour">09:00 - 24:00</p>
+        </article>
+        <article class="time-open">
+          <p class="day">Tue</p><p class="hour">09:00 - 24:00</p>
+        </article>
+        <article class="time-open">
+          <p class="day">Wed</p><p class="hour">09:00 - 24:00</p>
+        </article>
+        <article class="time-open">
+          <p class="day">Thur</p><p class="hour">09:00 - 24:00</p>
+        </article> 
+        <article class="time-open">
+          <p class="day">Fri</p><p class="hour">09:00 - 02:00</p>
+        </article>
+        <article class="time-open">
+          <p class="day">Sat</p><p class="hour">09:00 - 02:00</p>
+        </article> 
+        <article class="time-open">
+          <p class="day">Sun</p><p class="hour">09:00 - 02:00</p>
+        </article>
+      </div>
+      <div class="column1">
+        <h3 style="font-weight: bold;">Contact</h3>
+        <div class="icon-media">
+          <i class="gg-phone" style="text-align: left;"></i><p >+495-789-678-890</p>
+        </div>
+
+        <div class="icon-media">
+          <i class="gg-mail" style="text-align: left;"></i><p >claudemonet@restaurant.ru</p>
+        </div>
+
+        <div class="icon-media">
+          <i class="gg-pin" style="text-align: left;"></i><p >Spiridonovka Street, 25/20 Building 1</p>
+        </div>
+
+      </div>
+    </footer>
+    <script src="myscript1.js"></script>
+</body>
+</html>
