@@ -150,6 +150,8 @@ body {
 @font-face {
     font-family: Lobster;
     src: url(Lobster/Lobster-Regular.ttf);
+      background-repeat: none;
+      background-size: cover;
 }
 
 
