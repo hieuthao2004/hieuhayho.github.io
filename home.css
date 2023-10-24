@@ -450,9 +450,9 @@ hr {
       font-size: 18px;
 }
 
-/* <!-- W3C Validator doesn't support CSS Houndini --> */
 
-/* .counting {
+
+.counting {
     color: #C8A97E;
 }
   
@@ -505,8 +505,7 @@ hr {
       --num: 50;
     }
 }
-/* ------------------- */
-/* @property --year {
+@property --year {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
@@ -530,7 +529,7 @@ hr {
       --year: 7;
     }
 }
-*/
+
 .counting, .counting-client, .counting-year {
     color: #C8A97E;
 }
