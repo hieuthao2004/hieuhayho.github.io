@@ -145,13 +145,14 @@ body {
     display: flex;
     align-items: center;
     background-image: url(image/restaurant.png);
+         background-repeat: none;
+      background-size: cover;
 
 }
 @font-face {
     font-family: Lobster;
     src: url(Lobster/Lobster-Regular.ttf);
-      background-repeat: none;
-      background-size: cover;
+
 }
 
 
